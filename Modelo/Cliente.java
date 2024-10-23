@@ -13,6 +13,8 @@ public class Cliente {
     private String nombre;
     private String numContacto;
 
+    
+
     public int getId() {
         return id;
     }
