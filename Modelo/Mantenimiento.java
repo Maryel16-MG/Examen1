@@ -2,15 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Servicios;
-
+package Modelo;
 
 /**
  *
- * @author fabia
+ * @author Student
  */
-public class Mantenimiento{
-    private String tipoServicio; 
+public class Mantenimiento {
+     private String tipoServicio; 
     private String estadoServicio; 
 
     public Mantenimiento(String tipoServicio, String estadoServicio) {
@@ -42,4 +41,3 @@ public class Mantenimiento{
         this.estadoServicio = nuevoEstado;  
     }  
 }
-
