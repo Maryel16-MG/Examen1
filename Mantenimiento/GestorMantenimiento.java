@@ -4,7 +4,8 @@
  */
 package Mantenimiento;
 
-import Vehiculos.Vehiculo;
+import Modelo.Vehiculo;
+
 
 /**
  *
