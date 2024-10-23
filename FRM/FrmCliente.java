@@ -4,6 +4,9 @@
  */
 package FRM;
 
+import java.awt.event.ActionListener;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author fabia
@@ -159,10 +162,10 @@ public class FrmCliente extends javax.swing.JFrame {
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField4ActionPerformed
-
+  
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
      this.btnAgregar.addActionListener(l);
-     JOPtionPane.ShowMessageDialog(null, "Se agrego Correctamente");
+     JOptionPane.showMessageDialog(null, "Se agrego Correctamente");
     }//GEN-LAST:event_btnAgregarActionPerformed
 
     /**
