@@ -40,18 +40,5 @@ public class ServicioMantenimiento{
 
     public void cambiarEstado(String nuevoEstado) {  
         this.estadoServicio = nuevoEstado;  
-    }  
-
-    @Override
-    public String toString() {
-        return "ServicioMantenimiento{" + "tipoServicio=" + tipoServicio + ", estadoServicio=" + estadoServicio + '}';
-    }
-    
-    public void CambiarEstado (ServicioMantenimiento servicio){
-    servicio.CambiarEstado(new completado);
-    
-    
-
-        
-    }
+    }   
 }
