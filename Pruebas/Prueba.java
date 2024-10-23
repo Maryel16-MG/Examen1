@@ -12,7 +12,6 @@ import java.util.ArrayList;
  * @author Student
  */
 public class Prueba {
-    public class Main {  
     public static void main(String[] args) {  
         ArrayList<Vehiculo> listaVehiculos = new ArrayList<>();  
   
@@ -42,4 +41,4 @@ public class Prueba {
         }  
     }  
 }
-}
+
