@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
  * @author fabia
  */
 public class FrmCliente extends javax.swing.JFrame {
+    
 
     /**
      * Creates new form FrmCliente
