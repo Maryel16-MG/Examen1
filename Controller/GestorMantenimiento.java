@@ -5,6 +5,8 @@
 package Controller;
 
 import Modelo.Vehiculo;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -12,15 +14,33 @@ import Modelo.Vehiculo;
  * @author Student
  */
 public class GestorMantenimiento extends Vehiculo {
-    public void agregar(){
-        
-        
-    }
-    public void modificar(){
-        
-    }
-    
-    public void consultar(){
-        
-    }
+private static GestorMantenimiento instancia;  
+    private List<Vehiculo> vehiculos;  
+
+    private GestorMantenimiento() {  
+        vehiculos = new ArrayList<>();  
+    }  
+
+    public static synchronized GestorMantenimiento getInstancia() {  
+        if (instancia == null) {  
+            instancia = new GestorMantenimiento();  
+        }  
+        return instancia;  
+    }  
+
+    public void agregarVehiculo(Vehiculo vehiculo) {  
+        vehiculos.add(vehiculo);  
+    }  
+
+    public List<Vehiculo> getVehiculos() {  
+        return vehiculos;  
+    }  
+
+    public int contarVehiculosEnMantenimiento() {  
+        return (int) vehiculos.stream().filter(v ->true).count();  
+    }  
+
+    public int contarServiciosCompletados() {  
+        return (int) vehiculos.stream().filter(v -> true).count();  
+    }  
 }
