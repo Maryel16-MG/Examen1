@@ -8,10 +8,15 @@ package Modelo;
  *
  * @author Student
  */
-public class Vehiculo {
+public class Vehiculo extends Thread{
     private String marca;
     private String modelo;
     private String matricula;
+    
+    
+    public void run(){
+        
+    }
 
     public String getMarca() {
         return marca;

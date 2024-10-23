@@ -8,6 +8,6 @@ package Pruebas;
  *
  * @author Student
  */
-public class prueba {
+public class Prueba {
     
 }
