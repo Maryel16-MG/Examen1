@@ -34,7 +34,11 @@ public class Vehiculo {
     public Vehiculo() {
         this("","","");
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" + "marca=" + marca + ", modelo=" + modelo + ", matricula=" + matricula + '}';
+    }
+     
 
 }

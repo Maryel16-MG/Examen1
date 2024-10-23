@@ -9,11 +9,11 @@ package Servicios;
  *
  * @author fabia
  */
-public class Mantenimiento{
+public class ServicioMantenimiento{
     private String tipoServicio; 
     private String estadoServicio; 
 
-    public Mantenimiento(String tipoServicio, String estadoServicio) {
+    public ServicioMantenimiento(String tipoServicio, String estadoServicio) {
         this.tipoServicio = tipoServicio;
         this.estadoServicio = estadoServicio;
     }

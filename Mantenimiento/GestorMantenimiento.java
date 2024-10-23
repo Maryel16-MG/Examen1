@@ -4,10 +4,22 @@
  */
 package Mantenimiento;
 
+import Vehiculos.Vehiculo;
+
 /**
  *
  * @author Student
  */
-public class Mantenimiento {
+public class GestorMantenimiento extends Vehiculo {
+    public void agregar(){
+        
+        
+    }
+    public void modificar(){
+        
+    }
     
+    public void consultar(){
+        
+    }
 }
