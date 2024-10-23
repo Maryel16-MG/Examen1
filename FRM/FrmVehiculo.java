@@ -15,6 +15,7 @@ import java.awt.event.ActionListener;
 public class FrmVehiculo extends javax.swing.JFrame {
 
     private ActionListener l;
+    private Object JOPtionPane;
 
     /**
      * Creates new form FrmVehiculo
@@ -151,8 +152,8 @@ public class FrmVehiculo extends javax.swing.JFrame {
     }//GEN-LAST:event_txtMarcaActionPerformed
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
-        PopupMenu Vehiculo = null;
-        this.btnAgregar.add(Vehiculo);
+          this.btnAgregar.addActionListener(l);
+         JOPtionPane.equals( "Se agrego Correctamente");
     }//GEN-LAST:event_btnAgregarActionPerformed
 
     /**
